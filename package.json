@@ -1,7 +1,7 @@
 {
   "name": "btc-status-bar",
   "main": "./lib/btc-status-bar",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Keep an eye on the latest BTC price while you code!",
   "keywords": [
     "cryptocurrency",
