@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle btc-status-bar",
+        "command": "btc-status-bar:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "BTC Status Bar",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "btc-status-bar:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

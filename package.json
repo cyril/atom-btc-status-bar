@@ -1,0 +1,25 @@
+{
+  "name": "btc-status-bar",
+  "main": "./lib/btc-status-bar",
+  "version": "0.1.0",
+  "description": "Keep an eye on the latest BTC price while you code!",
+  "keywords": [
+    "cryptocurrency",
+    "market",
+    "btc",
+    "price-ticker"
+  ],
+  "repository": "https://github.com/cyril/atom-btc-status-bar",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "dependencies": {}
+}
